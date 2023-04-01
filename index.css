@@ -1,0 +1,127 @@
+
+body{
+font-family: 'Poppins', sans-serif;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#app{
+    width: 500px;
+    height: 750px;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    margin: none;
+    
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 50px;  
+}
+.header{
+    background:#2ec4b6;
+    color: white;
+}
+#header h1{
+    font-size: 28px;
+}
+input{
+    width: 115px;
+    height: 85px;
+    font-weight: bold;
+    font-size: 58px;
+    color: white;
+    text-align: center;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#convert-btn{
+    width: 115px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 9px 27px;
+    border: none;
+    border-radius: 5px;
+}
+#dark-mode-btn {
+    position: relative;
+    top: -20px;
+    left: -230px;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-left: 30px;
+    background-color: #4b4b4b;
+    color: green;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+#dark-mode-btn:hover{
+    background-color: #0a0908;
+}
+#results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 25px;
+}
+.result{
+    background-color: #F4F4F4;
+}
+.conv-cards{
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+}
+.conv-cards h2 {
+    font-size: 20px;
+    color:#BB86FC;
+}
+.conv-cards p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:#353535 ;
+}
+.dark-mode h2 {
+    color: #BB86FC;
+}
+.dark-mode p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #03DAC5;
+}
+.dark-mode .conv-cards {
+    background: #1b263b;
+}
+.dark-mode{
+    background:#121212;
+}
+.dark-mode .header{
+    background:#121212;
+    border-bottom: 2px solid #FF0266;
+    color:#f0e6ef;
+}
+.dark-mode .conv-btn {
+    background: #cce3de;
+}
+.dark-mode #unit{
+    border: 2px solid #f0e6ef;
+    color: #d9d9d9;
+}
+.dark-mode #dark-mode-btn{
+    background-color: #e0e0e0;
+}
+.dark-mode #dark-mode-btn:hover{
+    background-color: #ffffff;
+}

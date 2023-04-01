@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit convertor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app">
+        <div id="header" class="header">
+            <button id="dark-mode-btn"></button>
+            <h1>Metric/Imperial Unit Converter</h1>
+            <input type="number" id="unit">
+            <button id="convert-btn" class="conv-btn">Convert</button>
+            
+        </div>
+        <div id="results" class="result">
+            <div class="conv-cards ">
+                <h2>Length(Meter/Feet)</h2>
+                <p id="length-conv"></p>
+            </div>
+            <div class="conv-cards ">
+                <h2>Mass(Kg/Lbs)</h2>
+                <p id="mass-conv"></p>
+            </div>
+            <div class="conv-cards">
+                <h2>Volume(Liters/Gallons)</h2>
+                <p id="volume-conv"></p>    
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
