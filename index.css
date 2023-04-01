@@ -34,7 +34,7 @@ input{
     color: white;
     text-align: center;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid #F4F4F4;
     border-radius: 8px;
     margin: 20px auto;
 }
